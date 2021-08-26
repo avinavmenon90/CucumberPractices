@@ -1,0 +1,157 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-10T03:03:47.599Z",
+        "line": 5,
+        "name": "user regisration with diff data in columns",
+        "description": "",
+        "id": "user-registration-with-columns;user-regisration-with-diff-data-in-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User is on the Registration Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User enters the following user details",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "avi",
+                  "men",
+                  "avi@gmail.com",
+                  "123123123",
+                  "CLT"
+                ]
+              },
+              {
+                "cells": [
+                  "tom",
+                  "hardy",
+                  "tom@gmail.com",
+                  "34234234234",
+                  "ATL"
+                ]
+              },
+              {
+                "cells": [
+                  "john",
+                  "murthy",
+                  "jm@gmail.com",
+                  "456456456456",
+                  "SFO"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "User registration should be successful",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-10T03:03:47.730Z",
+        "line": 16,
+        "name": "user regisration with diff data with columns",
+        "description": "",
+        "id": "user-registration-with-columns;user-regisration-with-diff-data-with-columns",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "User is on the Registration Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User enters the following user details with columns",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "firstname",
+                  "lastname",
+                  "email",
+                  "phone",
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "avi",
+                  "men",
+                  "avi@gmail.com",
+                  "123123123",
+                  "CLT"
+                ]
+              },
+              {
+                "cells": [
+                  "tom",
+                  "hardy",
+                  "tom@gmail.com",
+                  "34234234234",
+                  "ATL"
+                ]
+              },
+              {
+                "cells": [
+                  "john",
+                  "murthy",
+                  "jm@gmail.com",
+                  "456456456456",
+                  "SFO"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User registration should be successful",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User Registration With Columns",
+    "description": "",
+    "id": "user-registration-with-columns",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/RegistrationWithColumns.feature",
+    "tags": []
+  }
+]
